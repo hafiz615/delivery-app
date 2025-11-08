@@ -1,0 +1,96 @@
+.delivery-preference {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  font-family: Arial, sans-serif;
+}
+
+.delivery-preference h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333333;
+}
+
+.delivery-preference form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.delivery-preference label {
+  font-weight: bold;
+  margin-bottom: 6px;
+  display: block;
+  color: #555555;
+}
+
+.delivery-preference input[type="text"],
+.delivery-preference input[type="datetime-local"],
+.delivery-preference textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.delivery-preference input:focus,
+.delivery-preference textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.delivery-preference textarea {
+  resize: vertical;
+}
+
+.delivery-preference .error {
+  color: #ff4d4f;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.delivery-preference div > div {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.delivery-preference input[type="radio"] {
+  margin-right: 6px;
+}
+
+.delivery-preference button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+  background-color: #007bff;
+  color: white;
+}
+
+.delivery-preference button:hover {
+  background-color: #0056b3;
+}
+
+.delivery-preference button:disabled {
+  background-color: #999999;
+  cursor: not-allowed;
+}
+
+.delivery-preference > button:last-child {
+  margin-top: 10px;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.delivery-preference > button:last-child:hover {
+  background-color: #dcdcdc;
+}

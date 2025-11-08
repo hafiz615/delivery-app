@@ -1,0 +1,110 @@
+/* Summary.css */
+
+.summary-container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  font-family: Arial, sans-serif;
+}
+
+.summary-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333333;
+}
+
+.summary-container h3 {
+  margin-top: 30px;
+  color: #555555;
+}
+
+.order-details p,
+.edit-form p {
+  margin: 10px 0;
+  color: #444444;
+}
+
+.order-details strong {
+  color: #222222;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.edit-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: #555555;
+}
+
+.edit-form input,
+.edit-form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.edit-form input:focus,
+.edit-form textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.edit-form textarea {
+  resize: vertical;
+}
+
+.edit-form input[type="radio"] {
+  margin-right: 6px;
+}
+
+.actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.actions button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.actions button:hover {
+  opacity: 0.9;
+}
+
+.actions button:first-child {
+  background-color: #007bff;
+  color: white;
+}
+
+.actions button:first-child:disabled {
+  background-color: #999999;
+  cursor: not-allowed;
+}
+
+.actions button:last-child {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.error {
+  color: #ff4d4f;
+  font-size: 14px;
+  margin-top: 5px;
+}
